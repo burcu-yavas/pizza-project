@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 body {
     background-color: rgb(255, 247, 252);
-
 }
 
 header {
@@ -22,7 +20,6 @@ header {
 }
 
 .header-container {
-
     margin: 0 0;
     padding: 3rem;
     display: flex;
@@ -48,7 +45,6 @@ header {
 }
 
 .button1 {
-
     background-color: #fde533d2;
     border-radius: 20px;
     padding: 8px 20px;
@@ -442,3 +438,18 @@ header {
     margin-top: 50px;
  
 }
+
+@media (max-width: 768px) {
+    .container{
+      max-width: 560px;
+    }
+  }
+  
+  @media (max-width: 576px){
+    .container{
+      max-width: 420px;
+    }
+}
+
+
+
